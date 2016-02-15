@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Transport</string>
+
+    <!-- Map  -->
+    <string name="map_search">Search</string>
+    <string name="map_search_error">Please input destination</string>
+    <string name="map_start">Start</string>
+    <string name="map_finish">Destination</string>
+    <string name="map_walking">Walk</string>
+    <string name="map_subway">Subway</string>
+    <string name="map_setup">Setup vehicle</string>
+    <string name="map_driving">Drive</string>
+    <string name="map_change">Change transport</string>
+    <string name="map_cycling">Cycle</string>
+    <string name="map_parking">Parking</string>
+    <string name="map_bus">Bus</string>
+
+    <!-- Provider-->
+    <string name="route_price_pattern">Price : %.2f €</string>
+    <string name="route_error">Routes are not available at the moment</string>
+    <string name="route_title">Routes</string>
+
+
+</resources>

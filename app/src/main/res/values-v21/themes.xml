@@ -1,0 +1,22 @@
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowActionBar">false</item>
+        <item name="colorPrimary">@android:color/holo_blue_light</item>
+        <item name="colorPrimaryDark">@android:color/holo_blue_dark</item>
+        <item name="colorAccent">@android:color/holo_blue_dark</item>
+
+        <item name="colorButtonNormal">@android:color/holo_blue_dark</item>
+        <item name="colorControlNormal">@android:color/holo_blue_dark</item>
+        <item name="colorControlHighlight">@android:color/white</item>
+
+        <item name="android:statusBarColor">@android:color/holo_blue_dark</item>
+        <item name="android:navigationBarColor">@android:color/holo_blue_dark</item>
+
+        <!-- enable window content transitions -->
+        <item name="android:windowContentTransitions">true</item>
+        <!-- disable multitouch in app, for cases when user can click 2 and more buttons -->
+        <item name="android:splitMotionEvents">false</item>
+    </style>
+
+</resources>

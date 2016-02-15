@@ -1,0 +1,51 @@
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/tools">
+
+    <data>
+        <variable name="item" type="com.lisway.transport.model.ui.route.RouteInfo"/>
+    </data>
+
+    <android.support.v7.widget.CardView
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/card_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/sub_margin"
+        android:layout_marginBottom="@dimen/sub_margin"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        card_view:cardCornerRadius="@dimen/card_view_radius">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="@dimen/sub_margin">
+
+            <ImageView
+                android:id="@+id/image_view"
+                android:layout_width="@dimen/image_size"
+                android:layout_height="@dimen/image_size"
+                android:layout_marginRight="@dimen/activity_horizontal_margin"
+                app:imageUrl="@{item.svgIconUrl}"/>
+
+            <TextView
+                android:id="@+id/text_view_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/image_view"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@{item.name}" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/text_view_name"
+                android:layout_marginTop="@dimen/min_margin"
+                android:layout_toRightOf="@id/image_view"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="@{item.price}" />
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+</layout>

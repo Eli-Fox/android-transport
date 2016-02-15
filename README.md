@@ -1,7 +1,7 @@
 ##Overview of project architecture
 
-ModelViewPresenter (MVP) - separate business logic with view logic 
-Android data binding - automatically bind views, bind model to view 
+ModelViewPresenter (MVP) - separate business logic with view logic_ 
+Android data binding - automatically bind views, bind model to view_ 
 RxJava - manage complex operations through different threads with observable/subscriber pattern 
 Dependency Injection (Dagger 2) - control dependencies between modules 
 Unit tests with JUnit4 - for decrease amount of bugs after code changes 
